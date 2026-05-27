@@ -1,0 +1,15 @@
+name: env_hybrid_dlib
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=2,<3
+  - psutil=5.9.*
+  - dlib=19.24.*          # conda-forge: iepriekš kompilēta bināra pakotne
+  - pip
+  - pip:
+      - setuptools==68.2.2
+      - onnxruntime>=1.18
+      - insightface==0.7.3
+      - opencv-python-headless

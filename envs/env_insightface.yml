@@ -1,0 +1,14 @@
+name: env_insightface
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=2,<3
+  - psutil=5.9.*
+  - pip
+  - pip:
+      - setuptools==68.2.2
+      - onnxruntime>=1.18
+      - insightface==0.7.3
+      - opencv-python-headless

@@ -1,0 +1,15 @@
+name: env_deepface
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.24.*
+  - psutil=5.9.*
+  - pip
+  - pip:
+      - setuptools==68.2.2
+      - tensorflow==2.13.0
+      - deepface==0.0.86
+      - mtcnn==0.1.1
+      - opencv-python==4.8.1.78
